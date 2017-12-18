@@ -1,0 +1,15 @@
+{
+    "types": ["uart_new", "uart_rx","uart_data"],
+    "category": "catMenu2",
+    "scripts": [
+        "blockly/blocks.js",
+        "blockly/javascript.js"
+    ],
+    "dependencies": [
+        "UART.js",
+        "UART-blockly.js"
+    ],
+    "msg": "blockly/msg",
+    "blocksMsg": "blockly/msg/blocks",
+    "toolbox": "blockly/toolbox.xml"
+}

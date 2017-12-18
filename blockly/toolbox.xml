@@ -1,0 +1,15 @@
+<category id="catUART" tags="mark1,fly,smart">
+    <block type="variables_set">
+        <field name="VAR">uart</field>
+        <value name="VALUE">
+            <block type="uart_new">
+            </block>
+        </value>
+    </block>
+    <block type="uart_tx">
+    </block>
+    <block type="uart_rx">
+    </block>
+    <block type="uart_data">
+    </block>
+</category>

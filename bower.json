@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-uart",
+  "description": "UART Module for Webduino",
+  "main": "uart.js",
+  "authors": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "uart"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
