@@ -85,8 +85,8 @@
             sendData.push(list[i] & 0x0f);
         }
         sendData.push(0xF7);
+        self._board.send(sendData);
         //console.log("SendData:", sendData);
-        //board.send(setBaudRate);
     }
 
     proto.rx = function(callback) {
