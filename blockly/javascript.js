@@ -18,7 +18,7 @@ Blockly.JavaScript['uart_rx'] = function(block) {
     var variable_uart = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('uart'), Blockly.Variables.NAME_TYPE);
     var statements_rx = Blockly.JavaScript.statementToCode(block, 'rx');
     var code = variable_uart + '.rx(';
-    code += "function(){\n" + statements_rx + "});\n";
+    code += "async function () {\n" + statements_rx + "});\n";
     return code;
 };
 
